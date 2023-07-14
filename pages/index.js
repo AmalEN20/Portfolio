@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
+import Main from '../components/Main'
+
 
 
 export default function Home() {
@@ -11,6 +13,7 @@ export default function Home() {
         <link rel="icon" href="/fav.png" />
       </Head>
       <Navbar />
+      <Main />
     </div>
   )
 }
