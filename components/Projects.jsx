@@ -19,12 +19,12 @@ const Projects = () => {
           <ProjectItem
             title="Calculator"
             backgroundImg={propertyImg}
-            projectUrl="/property"
+            projectUrl="/calculator"
           />
           <ProjectItem
             title="JobsPlus"
             backgroundImg={cryptoImg}
-            projectUrl="/crypto"
+            projectUrl="/jobsplus"
           />
           <ProjectItem
             title="WearYouWander"
