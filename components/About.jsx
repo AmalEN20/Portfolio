@@ -2,12 +2,16 @@ import React from "react";
 
 const About = () => {
   return (
-    <div id="About" className="w-full md:h-screen p-2 flex items-center py-16">
+    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
-          <p className="uppercase text-xl tracking-widest text-[#5651e5]">About</p>
+          <p className="uppercase text-xl tracking-widest text-[#5651e5]">
+            About
+          </p>
           <h2 className="py-4">Who I AM</h2>
-          <p className="py-2 text-gray-600">// I am not your normal developer</p>
+          <p className="py-2 text-gray-600">
+            // I am not your normal developer
+          </p>
           <p className="py-2 text-gray-600">
             I am Amal, a recent graduate of the coding bootcamp at the
             University of Washington. Currently, I am studying programming with
@@ -34,10 +38,22 @@ const About = () => {
             excited about the opportunities that lie ahead and look forward to
             contributing to the growth and innovation within the industry.
           </p>
-          <p className="py-2 text-gray-600 underline cursor-pointer">Check out some of my latest projects.</p>
+          <a
+            href="https://github.com/AmalEN20"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <p className="py-2 text-gray-600 underline cursor-pointer">
+              Check out some of my latest projects.
+            </p>
+          </a>
         </div>
-        <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-            <img className="rounded-xl" src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="/" />
+        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+          <img
+            className="rounded-xl"
+            src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+            alt="/"
+          />
         </div>
       </div>
     </div>
