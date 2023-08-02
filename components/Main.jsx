@@ -8,29 +8,12 @@ const Main = () => {
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w[1240px] w-full h-full p-2 flex justify-center items-center">
         <div>
-          <p className="uppercase text-sm tracking-widest text-gray-600">
-            LET'S BUILD SOMETHING TOGETHER
-          </p>
           <h1 className="py-4 text-gray-700">
             Hi, I'm <span className="text-[#5651e5]"> Amal </span>
           </h1>
           <h1 className="py-2 text-gray-700">A Full Stack Web Developer</h1>
           <p className="oy-4 text-gray-600 max-w[70%] m-auto">
-            I am an entry-level full stack web developer, and my journey begins
-            with a strong motivation to succeed in this exciting field. While I
-            may not have professional experience yet, my determination to learn
-            and grow fuels my desire to excel. I have built a solid foundation
-            in web development and continue to expand my knowledge with an
-            insatiable curiosity. HTML, CSS, and JavaScript are familiar
-            languages to me, and I am eager to explore frameworks and libraries
-            that enhance my skills. With a positive mindset and a can-do
-            attitude, I embrace challenges and tackle them head-on. I am fully
-            committed to gaining practical experience and contributing to web
-            development projects. My work ethic and proactive approach define my
-            dedication to becoming a proficient full stack web developer. I am
-            excited about the endless possibilities in this field and believe
-            that my motivation and passion will pave the way for my success and
-            growth.
+          Passionate and dedicated, I am a full stack web developer with a strong foundation from the Coding Bootcamp at the University of Washington. As an entry-level professional, I bring a hunger for growth and a genuine enthusiasm for learning to every project I undertake. My journey has equipped me with the essential skills in front-end and back-end development, and I am excited to apply my knowledge to create innovative and user-centric solutions. Eager to contribute to collaborative teams and embrace challenges, I am committed to continuously advancing my expertise and making a meaningful impact in the world of web development.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
@@ -49,7 +32,7 @@ const Main = () => {
               <FaGithub />
             </div>
             </a>
-            <a href="/resume"
+            <a href="https://drive.google.com/file/d/1nL4uWHJ587iGgwPSW0Jd04aZDceKlUDi/view?usp=sharing"
               target="_blank"
               rel="noreferrer">
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
