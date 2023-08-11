@@ -36,6 +36,8 @@ const Contact = () => {
               </div>
               <div>
                 <p className='uppercase pt-8'>Connect With Me</p>
+                <p className=' pt-5'>amalfullstackdev23@gmail.com</p>
+                <p className=' pt-5'>+1 425 410-53-23</p>
                 <div className='flex items-center justify-between py-4'>
                   <a
                     href='https://www.linkedin.com/in/amal-engulatov-18b144277/'
