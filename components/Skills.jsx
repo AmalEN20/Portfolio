@@ -10,29 +10,40 @@ import {
   faJava,
   faGithub,
   faAws,
-  faDatabase, // Placeholder for MongoDB, confirm the specific icon in your library
+  faDatabase,
+  faBootstrap,
+  faDAndD,
+  faGit,
+  faNpm,
+  faYarn, // Placeholder for MongoDB, confirm the specific icon in your library
 } from '@fortawesome/free-brands-svg-icons';
+import { FaAdjust, FaBrain, FaPhone, FaStaylinked } from 'react-icons/fa';
 
 
 const frontEndSkills = [
-  { icon: faHtml5, name: "HTML", color: "#e34c26" },
-  { icon: faCss3Alt, name: "CSS", color: "#264de4" },
+  { icon: faHtml5, name: "HTML5", color: "#e34c26" },
+  { icon: faCss3Alt, name: "CSS3", color: "#264de4" },
   { icon: faJsSquare, name: "JavaScript", color: "#f0db4f" },
   { icon: faReact, name: "React", color: "#61dbfb" },
+  { icon: faBootstrap, name: "Bootstrap", color: "#61dbfb" },
 ];
 
-const backEndSkills = [
-  { icon: faNodeJs, name: "Node.js", color: "#6DB55E" },
-];
 
 const databaseSkills = [
-  { icon: faDatabase, name: "MongoDB", color: "#4DB33D" },
+  { icon: faGit, name: "Git", color: "#4DB33D" },
+  { icon: faNpm, name: "Npm", color: "#4DB33D" },
+  { icon: faYarn, name: "Yarn", color: "#4DB33D" },
   // You can add more database skills here
 ];
 
 const otherSkills = [
-  { icon: faGithub, name: "Github", color: "#6e5494" },
+  { icon: FaAdjust, name: "Strong communication", color: "#6e5494" },
+  { icon: faGithub, name: "Teamwork", color: "#6e5494" },
+  { icon: faGithub, name: "Problem-solving abilities", color: "#6e5494" },
+  
 ];
+
+<i class="fa-thin fa-people-simple"></i>
 
 const Skills = () => {
   return (
@@ -50,28 +61,11 @@ const Skills = () => {
           </div>
         </div>
         
-        <div className='py-4'>
-          <h3 className='text-2xl font-semibold'>Backend</h3>
-          <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
-            {backEndSkills.map((skill, index) => (
-              <SkillCard key={index} skill={skill} />
-            ))}
-          </div>
-        </div>
 
         <div className='py-4'>
-          <h3 className='text-2xl font-semibold'>Database</h3>
+          <h3 className='text-2xl font-semibold'>Tools</h3>
           <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
             {databaseSkills.map((skill, index) => (
-              <SkillCard key={index} skill={skill} />
-            ))}
-          </div>
-        </div>
-
-        <div className='py-4'>
-          <h3 className='text-2xl font-semibold'>Others</h3>
-          <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
-            {otherSkills.map((skill, index) => (
               <SkillCard key={index} skill={skill} />
             ))}
           </div>

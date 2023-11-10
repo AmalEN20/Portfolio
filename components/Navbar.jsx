@@ -52,7 +52,7 @@ const Navbar = () => {
               <Link href='/#projects'>Projects</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b hover:text-gray-500'>
-              <Link href="https://drive.google.com/file/d/1nL4uWHJ587iGgwPSW0Jd04aZDceKlUDi/view?usp=sharing" target="_blank">Resume</Link>
+              <Link href="https://drive.google.com/file/d/1KR-6SJAq-pBPCAAc7uDeNvQl8NAtutbj/view?usp=sharing" target="_blank" >Resume</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b hover:text-gray-500'>
               <Link href='/#contact'>Contact</Link>

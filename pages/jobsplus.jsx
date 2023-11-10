@@ -17,8 +17,7 @@ const crypto = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">JobFinder Plus</h2>
-          <h3>React Native App / JSearch API / UI/UX Design</h3>
+          <h2 className="py-2">Ihealthwellness </h2>
         </div>
       </div>
 
@@ -27,28 +26,14 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            JobFinder Plus is a Next.js-powered program that simplifies your job
-            search by gathering job ads from LinkedIn and Indeed onto one
-            convenient page. With advanced search features, personalized
-            recommendations, and easy application tracking, JobFinder Plus saves
-            you time and effort while providing a seamless browsing experience.
-            Stay up-to-date with real-time updates and find your dream job
-            faster with JobFinder Plus. Start your job search today and unlock a
-            world of opportunities.
+          In the project, my responsibilities were focused on enhancing user interface and experience across various web pages including the Home, Research, About Us, and Our Team pages. My current efforts are directed towards developing additional pages that will soon be accessible to all users. My role entailed refactoring existing code for improved functionality, ensuring responsiveness across different devices, refining CSS for superior aesthetics, optimizing the code for efficiency, and troubleshooting issues as they arose.
           </p>
           <a
-            href="https://github.com/AmalEN20/react-jobs-project"
+            href="https://www.ihealthwellness.org/"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4 mr-8">Code</button>
-          </a>
-          <a
-            href="https://github.com/AmalEN20/react-jobs-project"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button className="px-8 py-2 mt-4">Demo</button>
+            <button className="px-8 py-2 mt-4">Live</button>
           </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
@@ -56,13 +41,16 @@ const crypto = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1 ">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> React
+                <RiRadioButtonFill className="pr-1" /> HTML5
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Next JS
+                <RiRadioButtonFill className="pr-1" /> CSS3
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Routes
+                <RiRadioButtonFill className="pr-1" /> React 
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> JavaScript (ES6+)
               </p>
             </div>
           </div>

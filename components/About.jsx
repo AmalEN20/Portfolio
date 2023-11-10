@@ -13,30 +13,7 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I AM</h2>
           <p className="py-2 text-gray-600">
-            I am Amal, a recent graduate of the coding bootcamp at the
-            University of Washington. Currently, I am studying programming with
-            a strong aspiration to become a full stack developer. Through the
-            bootcamp, I gained a solid foundation in both front-end and back-end
-            development, equipping me with essential skills and knowledge. To
-            further enhance my abilities, I am immersing myself in a
-            comprehensive curriculum that covers a wide range of programming
-            concepts. My dedication to continuous learning drives me to seek
-            opportunities where I can apply my skills and gain real-world
-            experience.{" "}
-          </p>
-          <p className="py-2 text-gray-600">
-            I am particularly passionate about becoming a full stack developer
-            because it allows me to handle both the front-end and back-end
-            aspects of a project. This versatility is crucial in creating
-            well-rounded and impactful software solutions. Driven by my
-            determination to excel in the field of software development, I am
-            committed to honing my skills and expanding my knowledge. I actively
-            engage in various projects and seek out challenges to continuously
-            improve my abilities. With my strong foundation, unwavering drive,
-            and eagerness to learn, I am confident that I will make a
-            significant impact in the world of software development. I am
-            excited about the opportunities that lie ahead and look forward to
-            contributing to the growth and innovation within the industry.
+          I am passionate about front-end development, which complements my goal of becoming a full stack developer. My focus on front-end skills enhances my ability to create impactful software solutions. Driven to excel in software development, I am dedicated to refining my abilities and acquiring new knowledge. I actively take on diverse projects, embracing challenges to improve my front-end skills. Confident in my foundational knowledge and eagerness to learn, I am excited to contribute significantly to software development and industry innovation.{" "}
           </p>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">

@@ -26,16 +26,6 @@ const Projects = () => {
             backgroundImg={cryptoImg}
             projectUrl="/jobsplus"
           />
-          <ProjectItem
-            title="WearYouWander"
-            backgroundImg={netflixImg}
-            projectUrl="/netflix"
-          />
-          <ProjectItem
-            title="MatchMyNeeds"
-            backgroundImg={twitchImg}
-            projectUrl="/twitch"
-          />
         </div>
       </div>
     </div>
