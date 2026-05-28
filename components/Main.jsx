@@ -11,10 +11,10 @@ const Main = () => {
     <h1 className="py-4 text-gray-700">
         Hi, I'm <span className="text-[#5651e5]">Amal</span>
     </h1>
-    <h1 className="py-2 text-gray-700 typing">A Full Stack Web Developer</h1>
+    <h1 className="py-2 text-gray-700 typing">IT Support Specialist & Web Developer</h1>
 </div>
           <p className="oy-4 text-gray-600 max-w-[100%] m-auto px-4">
-          As a University of Washington Coding Bootcamp alumnus, I am a full-stack web developer with a current focus on mastering front-end development. My commitment to creating intuitive and problem-solving designs is matched by a meticulous attention to detail and a quick-witted approach to challenges. Eager to learn and passionate about development, I thrive in both team settings and independent projects. I plan to build a robust foundation in front-end technologies and, upon solidifying my expertise, I intend to expand my skill set to include back-end development, aspiring to deliver comprehensive and innovative web solutions.          </p>
+University of Washington Coding Bootcamp alumnus with a background in front-end development and a passion for solving technical problems. Currently transitioning into IT Support, I bring strong troubleshooting skills, attention to detail, and hands-on experience with HTML, CSS, JavaScript, and React. I am completing the Google IT Support Professional Certificate and eager to help organizations solve technical challenges efficiently.</p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
               href="https://www.linkedin.com/in/amal-engulatov-18b144277/"
